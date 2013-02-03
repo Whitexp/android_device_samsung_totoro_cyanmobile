@@ -20,7 +20,7 @@ Next download a repo client (part "Installing Repo" of this link):
 
    http://source.android.com/source/downloading.html
 
-After this steps you have everything configured and can initialize your repository for building CMX for P350.
+After this steps you have everything configured and can initialize your repository for building CMX for Totoro.
 
 First initialize local repository with CyanMobile Mainfest - this will get you CMX Source Code.
 
@@ -52,7 +52,7 @@ Now Andorid is building. Now you need to wait quite a long time (depending on yo
 
     Package complete: /home/{USER}/WORKING_DIRECTORY/out/target/product/totoro/update-CyanMobile-eXperience-Totoro-xxxxxxxx-Release.zip
 
-Now in folder out/target/p350/ you will find flashable zip called update-CyanMobile-eXperience-Totoro-xxxxxxxx-Release.zip with your built ROM. Flash it and enjoy! Voila!
+Now in folder out/target/Totoro/ you will find flashable zip called update-CyanMobile-eXperience-Totoro-xxxxxxxx-Release.zip with your built ROM. Flash it and enjoy! Voila!
  
 Enjoy !
 
