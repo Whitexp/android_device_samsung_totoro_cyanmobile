@@ -31,7 +31,7 @@ Then sync up:
 
 This may took few hours depending on your internet speed.
 
-You will get full CyanMobile repo with P350 device folder (device/lge/p350), ready to build CM for P350.
+You will get full CyanMobile repo with Totoro folder (device/samsung/totoro), ready to build CM for Totoro.
 
 How to build
 ------------
