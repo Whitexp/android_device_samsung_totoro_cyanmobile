@@ -81,48 +81,14 @@ PRODUCT_COPY_FILES += \
     device/samsung/totoro/init.gt-s5360.rc:root/init.gt-s5360.rc
 
 
-#extra-apps
-PRODUCT_COPY_FILES += \
-#device/samsung/totoro/prebuilt/app/quickpic.apk::system/app/quickpic.apk \
-
-
 # Configuration files for audio
 PRODUCT_COPY_FILES += \
-	vendor/samsung/totoro/proprietary/system/etc/audio/soundbooster.txt:system/etc/audio/soundbooster.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/LVVEFS_Rx_Configuration.txt:system/etc/audio/LVVEFS_Rx_Configuration.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/LVVEFS_Tx_Configuration.txt:system/etc/audio/LVVEFS_Tx_Configuration.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_EARPIECE_WIDEBAND.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/Rx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_SPEAKER_WIDEBAND.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio/Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_EARPIECE_WIDEBAND.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_SPEAKER_WIDEBAND.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt \
-	vendor/samsung/totoro/proprietary/system/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
+
 	device/samsung/totoro/prebuilt/etc/init.d/10soundbooster:system/etc/init.d/10soundbooster
 
 
-    
-
 #audio
 PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/etc/asound.conf:system/etc/asound.conf \
-vendor/samsung/totoro/proprietary/system/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
-vendor/samsung/totoro/proprietary/system/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
-vendor/samsung/totoro/proprietary/system/lib/libaudio.so:system/lib/libaudio.so \
-vendor/samsung/totoro/proprietary/system/lib/libaudio.so:obj/lib/libaudio.so \
-vendor/samsung/totoro/proprietary/system/lib/liblvvefs.so:system/lib/liblvvefs.so \
-vendor/samsung/totoro/proprietary/system/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-vendor/samsung/totoro/proprietary/system/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
-vendor/samsung/totoro/proprietary/system/lib/lib_Samsung_Sound_Booster.so:system/lib/lib_Samsung_Sound_Booster.so \
-vendor/samsung/totoro/proprietary/system/lib/libsamsungAcousticeq.so:system/lib/libsamsungAcousticeq.so \
-vendor/samsung/totoro/proprietary/system/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/lib_Samsung_Acoustic_Module_Llite.so \
-vendor/samsung/totoro/proprietary/system/lib/libsoundalive.so:system/lib/libsoundalive.so \
-vendor/samsung/totoro/proprietary/system/lib/lib_R2VS_ARM_GA_Library_for_EUROPA.so:system/lib/lib_R2VS_ARM_GA_Library_for_EUROPA.so \
-vendor/samsung/totoro/proprietary/system/lib/libmedia.so:system/lib/libmedia.so \
-vendor/samsung/totoro/proprietary/system/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
-vendor/samsung/totoro/proprietary/system/lib/liba2dp.so:system/lib/liba2dp.so \
-vendor/samsung/totoro/proprietary/system/bin/mediaserver:system/bin/mediaserver \
 #vendor/samsung/totoro/proprietary/system/lib/libsisodrm.so:system/lib/libsisodrm.so \
 #vendor/samsung/totoro/proprietary/system/lib/libomadrm.so:system/lib/libomadrm.so \
 #vendor/samsung/totoro/proprietary/system/lib/librs_jni.so:system/lib/librs_jni.so \
@@ -134,17 +100,6 @@ PRODUCT_COPY_FILES += \
         vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 #mediaplayer
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/etc/media_profiles.xml:system/etc/media_profiles.xml \
-vendor/samsung/totoro/proprietary/system/lib/libBRCM_omx_core.so:system/lib/libBRCM_omx_core.so \
-vendor/samsung/totoro/proprietary/system/lib/libBRCM_omx_core_plugin.so:system/lib/libBRCM_omx_core_plugin.so \
-vendor/samsung/totoro/proprietary/system/lib/invoke_mock_media_player.so:system/lib/invoke_mock_media_player.so \
-vendor/samsung/totoro/proprietary/system/lib/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
-vendor/samsung/totoro/proprietary/system/lib/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \
-vendor/samsung/totoro/proprietary/system/lib/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \
-vendor/samsung/totoro/proprietary/system/lib/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \
-vendor/samsung/totoro/proprietary/system/lib/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \
-vendor/samsung/totoro/proprietary/system/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
 #vendor/samsung/totoro/proprietary/system/lib/libopencore_author.so:system/lib/libopencore_author.so \
 #vendor/samsung/totoro/proprietary/system/lib/libopencore_common.so:system/lib/libopencore_common.so \
 #vendor/samsung/totoro/proprietary/system/lib/libopencore_mp4local.so:system/lib/libopencore_mp4local.so \
@@ -155,32 +110,6 @@ vendor/samsung/totoro/proprietary/system/lib/libomx_sharedlibrary.so:system/lib/
 #vendor/samsung/totoro/proprietary/system/lib/libopencore_rtspreg.so:system/lib/libopencore_rtspreg.so \
 #vendor/samsung/totoro/proprietary/system/lib/libOpenSLES.so:system/lib/llibOpenSLES.so \
 
-#usb
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/etc/vold.fstab:system/etc/vold.fstab \
-#vendor/samsung/totoro/proprietary/system/bin/vold:system/bin/vold \
-#vendor/samsung/totoro/proprietary/system/bin/usb_portd:system/bin/usb_portd \
-#vendor/samsung/totoro/proprietary/system/etc/usb_portd.conf:system/etc/usb_portd.conf \
-#vendor/samsung/totoro/proprietary/system/etc/usb_tether.sh:system/etc/usb_tether.sh \
-#vendor/samsung/totoro/proprietary/system/etc/usbconfig.sh:system/etc/usbconfig.sh \
-#vendor/samsung/totoro/proprietary/system/etc/dbus.conf:system/etc/dbus.conf \
-
-#vendor/samsung/totoro/proprietary/system/etc/usbmode.txt:system/etc/usbmode.txt \
-#phone
-#PRODUCT_COPY_FILES += \
-
-#camera
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/lib/libarccamera.so:system/lib/libarccamera.so \
-vendor/samsung/totoro/proprietary/system/lib/libbrcmjpeg.so:system/lib/libbrcmjpeg.so \
-vendor/samsung/totoro/proprietary/system/lib/libcamera.so:system/lib/libcamera.so \
-vendor/samsung/totoro/proprietary/system/lib/libCaMotion.so:system/lib/libCaMotion.so \
-vendor/samsung/totoro/proprietary/system/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
-vendor/samsung/totoro/proprietary/system/lib/libseccamera.so:system/lib/libseccamera.so \
-vendor/samsung/totoro/proprietary/system/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
-vendor/samsung/totoro/proprietary/system/lib/libcamera_client.so:system/lib/libcamera_client.so \
-vendor/samsung/totoro/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
-vendor/samsung/totoro/proprietary/system/lib/libcaps.so:system/lib/libcaps.so \
 
 #sensores
 #vendor/samsung/totoro/proprietary/system/lib/libdhwr.so:system/lib/libdhwr.so 
@@ -198,77 +127,22 @@ vendor/samsung/totoro/proprietary/system/lib/libaccsensorcaltest.so:system/lib/l
 vendor/samsung/totoro/proprietary/system/lib/libaccelcal.so:system/lib/libaccelcal.so \
 
 
-#keychars
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
-vendor/samsung/totoro/proprietary/system/usr/keychars/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
-vendor/samsung/totoro/proprietary/system/usr/keychars/sec_key.kcm.bin:system/usr/keychars/sec_key.kcm.bin \
-vendor/samsung/totoro/proprietary/system/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-vendor/samsung/totoro/proprietary/system/usr/keylayout/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
-vendor/samsung/totoro/proprietary/system/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-vendor/samsung/totoro/proprietary/system/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
-vendor/samsung/totoro/proprietary/system/usr/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl \
-vendor/samsung/totoro/proprietary/system/usr/keylayout/sec_keypad.kl:system/usr/keylayout/sec_keypad.kl \
-
-#bluetooth
-PRODUCT_COPY_FILES += \
-#vendor/samsung/totoro/proprietary/system/lib/libbluedroid.so:system/lib/libbluedroid.so \
-#vendor/samsung/totoro/proprietary/system/lib/libbluetooth.so:system/lib/libbluetooth.so \
-#vendor/samsung/totoro/proprietary/system/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
-#vendor/samsung/totoro/proprietary/system/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf \
-#vendor/samsung/totoro/proprietary/system/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
-#vendor/samsung/totoro/proprietary/system/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
-#vendor/samsung/totoro/proprietary/system/etc/bluetooth/input.conf:system/etc/bluetooth/input.conf \
-#vendor/samsung/totoro/proprietary/system/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf 
 
 #gps
 PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/lib/libsoc.so:system/lib/libsoc.so \
 vendor/samsung/totoro/proprietary/system/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
 vendor/samsung/totoro/proprietary/system/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
 vendor/samsung/totoro/proprietary/system/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
-vendor/samsung/totoro/proprietary/system/bin/glgps:system/bin/glgps \
 vendor/samsung/totoro/proprietary/system/bin/gps.cer:system/bin/gps.cer \
-vendor/samsung/totoro/proprietary/system/etc/gps.conf:system/etc/gps.conf \
 
-#misc
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/bin/btld:system/bin/btld \
-vendor/samsung/totoro/proprietary/system/bin/wlandutservice:system/bin/wlandutservice \
-vendor/samsung/totoro/proprietary/system/bin/mfgloader:system/bin/mfgloader \
-vendor/samsung/totoro/proprietary/system/bin/runSysCmd:system/bin/runSysCmd \
-vendor/samsung/totoro/proprietary/system/bin/usb_portd:system/bin/usb_portd \
-vendor/samsung/totoro/proprietary/system/bin/npsmobex:system/bin/npsmobex \
-vendor/samsung/totoro/proprietary/system/bin/memsicd:system/bin/memsicd 
+
 
 #Wifi
 PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/lib/libnetutils.so:system/lib/libnetutils.so \
 device/samsung/totoro/prebuilt/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
 device/samsung/totoro/prebuilt/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 device/samsung/totoro/prebuilt/bin/get_macaddrs:system/bin/get_macaddrs \
-vendor/samsung/totoro/proprietary/system/etc/wifi/bcm4330_aps.bin:system/etc/wifi/bcm4330_aps.bin \
-vendor/samsung/totoro/proprietary/system/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
-vendor/samsung/totoro/proprietary/system/etc/wifi/RC_248_WPA.bin:system/etc/wifi/RC_248_WPA.bin \
-vendor/samsung/totoro/proprietary/system/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
-vendor/samsung/totoro/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-vendor/samsung/totoro/proprietary/system/etc/wifi/nvram.txt:system/etc/wifi/nvram.txt \
-vendor/samsung/totoro/proprietary/system/etc/wifi/wifi.conf:system/etc/wifi/wifi.conf 
 
-
-#rild
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/lib/libril.so:system/lib/libril.so \
-vendor/samsung/totoro/proprietary/system/bin/rild:system/bin/rild \
-vendor/samsung/totoro/proprietary/system/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
-vendor/samsung/totoro/proprietary/system/lib/liburilclient.so:system/lib/liburilclient.so \
-vendor/samsung/totoro/proprietary/system/lib/libbrcm_ril.so:system/lib/libreference-ril.so \
-
-#outros
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/bin/BCM4330B1_002.001.003.0485.0506.hcd:system/bin/BCM4330B1_002.001.003.0485.0506.hcd \
-#vendor/samsung/totoro/proprietary/system/lib/libandroidterm2.so:system/lib/libandroidterm2.so \
-#vendor/samsung/totoro/proprietary/system/lib/libterm.so:system/lib/libterm.so \
 
 # HW drivers
 PRODUCT_COPY_FILES += \
