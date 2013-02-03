@@ -210,6 +210,8 @@ chmod 0771 /efs
 
     # don't require sim
     setprop keyguard.no_require_sim 1
+    setprop persist.sys.gmaps_hack 1
+    setprop ro.squadzone.build 1
 
 on post-fs
     # once everything is setup, no need to modify /

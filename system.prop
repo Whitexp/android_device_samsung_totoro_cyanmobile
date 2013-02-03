@@ -65,3 +65,4 @@ ro.compcache.default=0
 persist.sys.use_dithering=0
 ro.telephony.call_ring.delay=0
 ro.ril.disable.power.collapse=0
+debug.sf.electron_frames=6
