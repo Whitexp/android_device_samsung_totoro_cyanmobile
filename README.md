@@ -4,9 +4,9 @@ CyanMobile for Totoro
 Developer : Whitexp
 
 Credits:
-Motafoca
-Psyke83
-Squadzone
+Motafoca,
+Psyke83,
+Squadzone,
 and alls testers !
 
 How to init repository
