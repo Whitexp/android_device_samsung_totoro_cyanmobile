@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
 
 #Wifi
 PRODUCT_COPY_FILES += \
+device/samsung/totoro/prebuilt/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
 device/samsung/totoro/prebuilt/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
 device/samsung/totoro/prebuilt/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 device/samsung/totoro/prebuilt/bin/get_macaddrs:system/bin/get_macaddrs \
