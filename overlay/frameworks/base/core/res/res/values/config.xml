@@ -24,7 +24,7 @@
 	<bool name="config_batterySdCardAccessibility">true</bool>
 
     <!-- Use the new fancy screen off animation -->
-    <bool name="config_animateScreenLights">true</bool>
+    <bool name="config_animateScreenLights">false</bool>
 
     <string-array translatable="false" name="config_tether_usb_regexs">
         <item>"usb\\d"</item>
@@ -32,7 +32,7 @@
 
     <string-array translatable="false" name="config_tether_upstream_regexs">
         <item>"ppp\\d"</item>
-        <item>"wlan\\d"</item>
+        <item>"eth\\d"</item>
     	<item>"pdp\\d"</item> 
     	<item>"rmnet\\d"</item>
     </string-array>

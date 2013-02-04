@@ -21,4 +21,4 @@
 # function: add_lunch_combo generic-eng
 
 add_lunch_combo totoro-eng
-add_lunch_combo generic_totoro-userdebug
+add_lunch_combo totoro-userdebug

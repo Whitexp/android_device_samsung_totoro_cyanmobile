@@ -74,7 +74,8 @@ PRODUCT_COPY_FILES += \
     device/samsung/totoro/prebuilt/rfs_fat.ko:root/rfs_fat.ko \
     device/samsung/totoro/prebuilt/rfs_glue.ko:root/rfs_glue.ko \
     device/samsung/totoro/prebuilt/j4fs.ko:root/j4fs.ko \
-    device/samsung/totoro/prebuilt/sec_param.ko:root/sec_param.ko \
+    device/samsung/totoro/prebuilt/sec_param.ko:root/sec_param.ko
+
 # Board-specific init
 PRODUCT_COPY_FILES += \
     device/samsung/totoro/ueventd.gt-s5360.rc:root/ueventd.gt-s5360.rc \
@@ -83,12 +84,11 @@ PRODUCT_COPY_FILES += \
 
 # Configuration files for audio
 PRODUCT_COPY_FILES += \
-
 	device/samsung/totoro/prebuilt/etc/init.d/10soundbooster:system/etc/init.d/10soundbooster
 
 
 #audio
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
 #vendor/samsung/totoro/proprietary/system/lib/libsisodrm.so:system/lib/libsisodrm.so \
 #vendor/samsung/totoro/proprietary/system/lib/libomadrm.so:system/lib/libomadrm.so \
 #vendor/samsung/totoro/proprietary/system/lib/librs_jni.so:system/lib/librs_jni.so \
@@ -147,7 +147,8 @@ device/samsung/totoro/prebuilt/bin/get_macaddrs:system/bin/get_macaddrs \
 # HW drivers
 PRODUCT_COPY_FILES += \
 device/samsung/totoro/prebuilt/hw/gralloc.totoro.so:system/lib/hw/gralloc.totoro.so \
-device/samsung/totoro/prebuilt/lib/egl/libGLES_hgl.so:system/lib/egl/libGLES_hgl.so 
+device/samsung/totoro/prebuilt/lib/egl/libGLES_hgl.so:system/lib/egl/libGLES_hgl.so
+
 #Drivers
 PRODUCT_COPY_FILES += \
 vendor/samsung/totoro/proprietary/system/lib/modules/bcm_headsetsw.ko:system/lib/modules/bcm_headsetsw.ko \
