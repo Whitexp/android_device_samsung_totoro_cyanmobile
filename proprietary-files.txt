@@ -18,7 +18,6 @@ etc/wifi/RC_248_WPA.bin
 etc/wifi/bcm4330_mfg.bin
 etc/wifi/nvram_mfg.txt
 etc/wifi/nvram.txt
-etc/wifi/wifi.conf
 lib/libaudiopolicy.so
 lib/libaudio.so
 lib/liblvvefs.so
@@ -66,6 +65,7 @@ usr/keylayout/sec_jack.kl
 usr/keylayout/sec_key.kl
 usr/keylayout/sec_keypad.kl
 bin/BCM4330B1_002.001.003.0485.0506.hcd
+bin/BCM4330B1_002.001.003.0634.0652.hcd
 bin/mediaserver
 bin/glgps
 bin/btld
