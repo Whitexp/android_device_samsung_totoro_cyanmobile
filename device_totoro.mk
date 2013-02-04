@@ -111,32 +111,6 @@ PRODUCT_COPY_FILES += \
 #vendor/samsung/totoro/proprietary/system/lib/libOpenSLES.so:system/lib/llibOpenSLES.so \
 
 
-#sensores
-#vendor/samsung/totoro/proprietary/system/lib/libdhwr.so:system/lib/libdhwr.so 
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
-vendor/samsung/totoro/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
-vendor/samsung/totoro/proprietary/system/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
-vendor/samsung/totoro/proprietary/system/lib/hw/gps.bcm21553.so:system/lib/hw/gps.bcm21553.so \
-vendor/samsung/totoro/proprietary/system/lib/hw/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
-vendor/samsung/totoro/proprietary/system/lib/hw/lights.bcm21553.so:system/lib/hw/lights.bcm21553.so \
-vendor/samsung/totoro/proprietary/system/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-vendor/samsung/totoro/proprietary/system/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
-vendor/samsung/totoro/proprietary/system/lib/libaccsensorcal.so:system/lib/libaccsensorcal.so \
-vendor/samsung/totoro/proprietary/system/lib/libaccsensorcaltest.so:system/lib/libaccsensorcaltest.so \
-vendor/samsung/totoro/proprietary/system/lib/libaccelcal.so:system/lib/libaccelcal.so \
-
-
-
-#gps
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
-vendor/samsung/totoro/proprietary/system/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
-vendor/samsung/totoro/proprietary/system/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
-vendor/samsung/totoro/proprietary/system/bin/gps.cer:system/bin/gps.cer \
-
-
-
 #Wifi
 PRODUCT_COPY_FILES += \
 device/samsung/totoro/prebuilt/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
@@ -149,14 +123,6 @@ PRODUCT_COPY_FILES += \
 device/samsung/totoro/prebuilt/hw/gralloc.totoro.so:system/lib/hw/gralloc.totoro.so \
 device/samsung/totoro/prebuilt/lib/egl/libGLES_hgl.so:system/lib/egl/libGLES_hgl.so
 
-#Drivers
-PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/lib/modules/bcm_headsetsw.ko:system/lib/modules/bcm_headsetsw.ko \
-vendor/samsung/totoro/proprietary/system/lib/modules/brcm_switch.ko:system/lib/modules/brcm_switch.ko \
-vendor/samsung/totoro/proprietary/system/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
-vendor/samsung/totoro/proprietary/system/lib/modules/gememalloc.ko:system/lib/modules/gememalloc.ko \
-vendor/samsung/totoro/proprietary/system/lib/modules/h6270enc.ko:system/lib/modules/h6270enc.ko \
-vendor/samsung/totoro/proprietary/system/lib/modules/hx170dec.ko:system/lib/modules/hx170dec.ko 
 
 #extra-apps
 PRODUCT_COPY_FILES += \
