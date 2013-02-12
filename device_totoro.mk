@@ -31,7 +31,7 @@ $(call inherit-product, build/target/product/full_base.mk)
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 # Add device package overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/totoro/overlay
+DEVICE_PACKAGE_OVERLAYS := device/samsung/totoro/overlay
 
 # Libs
 PRODUCT_PACKAGES += \
@@ -158,3 +158,8 @@ PRODUCT_COPY_FILES += \
 # of the aspects that require proprietary drivers that aren't
 # commonly available
 $(call inherit-product-if-exists, vendor/samsung/totoro/totoro-vendor.mk)
+
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+PRODUCT_NAME := totoro
+PRODUCT_DEVICE := totoro
+PRODUCT_MODEL := GT-S5360
