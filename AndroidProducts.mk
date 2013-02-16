@@ -18,4 +18,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/totoro.mk
+    $(LOCAL_DIR)/device_totoro.mk
